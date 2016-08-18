@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+img{
+    border: none;
+}
+ul{
+    list-style: none;
+}
+.clearfix:after,.clearfix:before{
+    content: '';
+    display: block;
+    clear: both;
+}
+.head{
+    width: 100%;
+    height: 63px;
+    background: url("华为/header_bg.gif");
+}
+.head .headInner{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.head .headInner img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.box{
+    width: 100%;
+    height: 497px;
+
+}
+.box .boxInner{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+.box .boxInner .boxTitle{
+    width: 100%;
+    height: 50px;
+}
+.box .boxInner .boxTitle i{
+    font-style: normal;
+    font-size: 24px;
+    color: #000;
+    line-height: 50px;
+    font-weight: bold;
+    float: left;
+}
+.box .boxInner .boxTitle .rList{
+    margin-left: 810px;
+    padding-top: 26px;
+}
+.box .boxInner .boxTitle .rList .right{
+    margin-left: 10px;
+    float: left;
+    position: relative;
+}
+.box .boxInner .boxTitle .rList .right a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #666;
+}
+.box .boxInner .boxTitle .rList .right a:hover{
+    text-decoration: underline;
+}
+.box .boxInner .boxTitle .rList .right .langBox{
+    width: 202px;
+    height: 324px;
+    position: absolute;
+    top: 20px;
+    left: -120px;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    display: none;
+    z-index: 10;
+}
+.box .boxInner .boxTitle .rList .right .langBox ul{
+    margin-left: 15px;
+    padding: 10px 0 10px 0;
+}
+.container{
+    width: 100%;
+    height: 414px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+.container .changeColor{
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(top,#fcfcfc,#fdfdfd);
+    background-image: -webkit-linear-gradient(top,#fcfcfc,#fdfdfd);
+    background-image:-moz-linear-gradient(top,#fcfcfc,#fdfdfd);
+    background-image:-ms-linear-gradient(top,#fcfcfc,#fdfdfd);
+    background-image:-o-linear-gradient(top,#fcfcfc,#fdfdfd);
+    margin-top: 15px;
+}
+.container .tab{
+    width: 905px;
+    height: 40px;
+    padding-left: 28px;
+    margin: 0 3px;
+    border-bottom: 1px solid #ddd;
+}
+.container .tab ul li{
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-bottom: #fff;
+}
+.container .tab ul li a{
+    font-size: 14px;
+    width: 130px;
+    height: 38px;
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+}
+.container .main{
+    width: 100%;
+    height: 350px;
+}
+.container .mainL{
+    float: left;
+    width: 567px;
+    height: 349px;
+}
+.container .mainL .login{
+    margin: 55px 0 0 174px;
+}
+.container .mainL .login ul .password{
+    margin: 10px 0 0 27px;
+}
+.container .mainL .login ul li span{
+    font-size: 12px;
+    color: #000;
+}
+.container .mainL .login ul li input{
+    width: 234px;
+    height: 30px;
+    margin-left: 20px;
+}
+.container .mainL .login .forget{
+    margin: 11px 0 0 75px;
+}
+.container .mainL .login .forget a{
+    display: inline-block;
+    width: 55px;
+    font-size: 12px;
+    color: #006699;
+}
+.container .mainL .login .btn{
+    width: 77px;
+    height: 27px;
+    border: 1px solid #a5a5a5;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    line-height: 27px;
+    background: -webkit-linear-gradient(top,#fff,#eaeaea);
+    margin: 29px 0 0 75px;
+    font-weight: bold;
+}
+.container .mainL .teamwork{
+    width: 232px;
+    height: 62px;
+    line-height: 62px;
+    border-top: 2px solid #e8e8e8;
+    margin: 60px 0 0 176px;
+}
+.container .mainL .teamwork ul li{
+    float: left;
+    margin: 16px 0 0 36px;
+}
+.container .mainL .teamwork ul li .QQ{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: url("华为/QQ_03.png") no-repeat center center;
+}
+.container .mainL .teamwork ul li .IN{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: url("华为/IN_03.png") no-repeat center center;
+}
+.container .mainR{
+    width: 393px;
+    float: left;
+}
+.container .mainR h3{
+    font-size: 22px;
+    color: #666;
+    margin-top: 32px;
+}
+.container .mainR p{
+    font-size: 14px;
+    color: #666;
+    width: 363px;
+    line-height: 33px;
+    margin-top: 45px;
+}
+.container .mainR input{
+    width: 118px;
+    height: 32px;
+    border: 1px solid #5b9400;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    background: -webkit-linear-gradient(top,#a2d847,#7dbf0e);
+    margin: 27px 0 0 35px;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 60px;
+}
+.footer p{
+    font-size: 14px;
+    color: #666;
+}
